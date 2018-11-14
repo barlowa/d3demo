@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,4 +11,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+ */
+
+
+
+/* $background: hsla(218%, 25%, 37%, 1);
+$primary: hsla(151%, 72%, 61%, 1);
+$secondary: hsla(4%, 99%, 66%, 1);
+
+$text: transparentize(white, .1);
+$text-primary: transparentize($primary, .2);
+$text-secondary: transparentize($secondary, .2); */
+
+html, body, #root {
+  height: 100%;
+  background-color: hsla(218%, 25%, 37%, 1);
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  
+  /* :hover {
+    color: white;
+  } */
+}
+
+svg {
+  /* text {
+    fill: $text;
+  }
+  
+  .population-bar {
+    fill: $primary;
+    
+    &--emphasis {
+      fill: $secondary;
+    }
+  } */
+}
+
+.container {
+  height: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

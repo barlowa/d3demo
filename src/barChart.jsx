@@ -2,7 +2,7 @@ import React from 'react'
 import * as d3 from 'd3'
 
 const data = [
-  { town: 'Macondo', pop: 24 },
+  { town: 'Macondo', pop: 54 },
   { town: 'Wonderland', pop: 47 },
   { town: 'Oz', pop: 66 },
   { town: 'Gondor', pop: 17 },
@@ -152,19 +152,19 @@ export const BarChart = ({
   );
 export default BarChart
 
-const App = () => (
-  <div className='container'>
-    <BarChart
-      svgWidth={svgWidth}
-      svgHeight={svgHeight}
-      textWidth={textWidth}
-      textGutter={textGutter}
-      barMargin={barMargin}
-      barHeight={barHeight}
-      yScale={yScale}
-      xScale={xScale}
-      data={data}
-    />
-  </div>
-);
+// const App = () => (
+//   <div className='container'>
+//     <BarChart
+//       svgWidth={svgWidth}
+//       svgHeight={svgHeight}
+//       textWidth={textWidth}
+//       textGutter={textGutter}
+//       barMargin={barMargin}
+//       barHeight={barHeight}
+//       yScale={yScale}
+//       xScale={xScale}
+//       data={data}
+//     />
+//   </div>
+// );
 
