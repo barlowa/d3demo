@@ -4,7 +4,7 @@ import './App.css';
 import * as d3 from 'd3'
 
 import { BarChart } from './barChart'
-
+import { UseEffect  } from './useEffect'
 const data = [
   { town: 'Macondo', pop: 54 },
   { town: 'Wonderland', pop: 47 },
@@ -42,7 +42,7 @@ class App extends Component {
           >
             Learn React
           </a>
-          <BarChart
+          {/* <BarChart
             svgWidth={svgWidth}
             svgHeight={svgHeight}
             textWidth={textWidth}
@@ -52,7 +52,8 @@ class App extends Component {
             yScale={yScale}
             xScale={xScale}
             data={data}
-          />
+          /> */}
+          <UseEffect />
         </header>
       </div>
     );
